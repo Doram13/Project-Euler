@@ -1,4 +1,4 @@
-package com.company;
+package com.Euler.thousandDigit;
 
 import java.util.Arrays;
 
@@ -35,8 +35,8 @@ public class Main {
 
         for(int i = 0; i < thousandDigit.length()-12; i++) {
             secondProduct = Character.getNumericValue(thousandDigit.charAt(i)) * Character.getNumericValue(thousandDigit.charAt(i+1)) *
-                    Character.getNumericValue(thousandDigit.charAt(i+2)) * Character.getNumericValue(thousandDigit.charAt(i+3))
-                    * Character.getNumericValue(thousandDigit.charAt(i+4)) * Character.getNumericValue(thousandDigit.charAt(i+5)) *
+                    Character.getNumericValue(thousandDigit.charAt(i+2)) * Character.getNumericValue(thousandDigit.charAt(i+3)) *
+                    Character.getNumericValue(thousandDigit.charAt(i+4)) * Character.getNumericValue(thousandDigit.charAt(i+5)) *
                     Character.getNumericValue(thousandDigit.charAt(i+6)) * Character.getNumericValue(thousandDigit.charAt(i+7)) *
                     Character.getNumericValue(thousandDigit.charAt(i+8)) * Character.getNumericValue(thousandDigit.charAt(i+9)) *
                     Character.getNumericValue(thousandDigit.charAt(i+10)) * Character.getNumericValue(thousandDigit.charAt(i+11)) *
